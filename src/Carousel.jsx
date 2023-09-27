@@ -41,7 +41,7 @@ const Carousel = ({}) => {
               className="slide"
               key={id}
             >
-              <img className="person-img" src={image} alt={name} />
+              <img style={{display:'inline-block'}} className="person-img" src={image} alt={name} />
               <h5 className="name"> {name} </h5>
               <p className="title">{title}</p>
               <p className="text">{quote}</p>
